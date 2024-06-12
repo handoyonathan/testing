@@ -1,0 +1,272 @@
+@font-face {
+    font-family: 'CustomFontBlack';
+    src: url("../Asset/biryani-cufonfonts/Biryani-Black.ttf");
+}
+
+@font-face {
+    font-family: 'CustomFontBold';
+    src: url("../Asset/biryani-cufonfonts/Biryani-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'CustomFontLight';
+    src: url("../Asset/biryani-cufonfonts/Biryani-Light.ttf");
+}
+
+@font-face {
+    font-family: 'CustomFontSemiBold';
+    src: url("../Asset/biryani-cufonfonts/Biryani-Regular.ttf");
+}
+
+body {
+    background-color:#DDE6ED;
+    padding: 0;
+    margin: 0;
+    /* min-height: 100vh; */
+}
+
+h1{
+    font-family: "CustomFontBold";
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 5%;
+    color: #27374D;
+}
+
+h2{
+    font-family: 'CustomFontBold';
+    font-size: 28px;
+    line-height: 28px;
+    color: #27374D;
+    margin-top: 2%;
+}
+
+.event-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+}
+
+.event-line{
+    /* height: 1rem; */
+    width: 85%;
+    border: 2px solid #27374D;
+    margin-bottom: 2%;
+}
+
+.event-list{ 
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.img-container img{
+    max-width: 100%;
+    height: auto;
+}
+
+.event-desc{
+    font-family: 'CustomFontLight';
+    font-size: 23px;
+    line-height: 35px;
+    color: #27374D;
+    text-align: justify;
+    width: 100%;
+    height: 20%;
+}
+
+.event-place, .event-date{
+    font-family: 'CustomFontSemiBold';
+    font-size: 22px;
+    line-height: 24px;
+    color: #27374D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 3%;
+    /* background-color: #27374D; */
+}
+
+.event-place img, .event-date img{
+    /* max-width: 80%;
+    height: auto; */
+    height: 50px;
+}
+
+.logo-header{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    column-gap: 10%;
+    /* float: left; */
+}
+
+.logo-header img {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 75px;
+    height: 43.35px;
+    left: 49px;
+    top: 28px;
+    vertical-align: middle;
+}
+
+.header {
+    /* position: absolute;
+    width: 628px;
+    height: 45px;
+    left: 210px;
+    top: 28px; */
+    background-color: #526D82;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navigation-header {
+    /* background-color: red; */
+    display: flex;
+    justify-items: space-between;
+    margin-top: 40px;
+    flex-direction: row;
+    column-gap: 10%;
+    /* float: right; */
+    height: 100%;
+    width: 80%;
+}
+
+.navigation-header a{
+    text-decoration: none;
+    height: 100%;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.connect-with-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.logo-footer img{
+    height: auto;
+    width: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.app-store img{
+    height: auto;
+    width: 200px;
+}
+
+.google-store img{
+    height: auto;
+    width: 200px;
+}
+
+.get-it{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right{
+    align-items: center;
+    margin: auto;
+}
+
+.social-media img{
+    height: 30px;
+    width: 30px;
+}
+
+.footer-contact img{
+    height: 20px;
+    width: 20px;
+    margin-right: 2.5%;
+}
+
+.footer-parent p {
+    color: #ffffff;
+}
+
+.location p, .email p, .phone p{   
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    background-color: #526D82;
+}
+
+nav{
+    background-color: #526D82;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+}
+
+.banner-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.banner-wrapper img {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infite;
+}

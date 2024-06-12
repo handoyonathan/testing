@@ -1,0 +1,149 @@
+footer{
+    background-color: #526D82;
+}
+
+nav{
+    background-color: #526D82;
+    width: 100%;
+    height: 100px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+.banner-wrapper{
+    width: 100%;
+    display: flex;
+}
+
+.banner-wrapper img {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infite;
+}
+
+.logo-header{
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    column-gap: 10%;
+
+}
+
+.logo-header img {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 75px;
+    height: 43.35px;
+    left: 49px;
+    top: 28px;
+    vertical-align: middle;
+}
+
+.header {
+    background-color: #526D82;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.navigation-header {
+    display: flex;
+    justify-items: space-between;
+    margin-top: 40px;
+    flex-direction: row;
+    column-gap: 10%;
+    height: 100%;
+    width: 80%;
+}
+
+.navigation-header a{
+    text-decoration: none;
+    height: 100%;
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+}
+
+.connect-with-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.logo-footer img{
+    height: auto;
+    width: 100px;
+    display: flex;
+    margin: auto;
+}
+
+.app-store img{
+    height: auto;
+    width: 200px;
+}
+
+.google-store img{
+    height: auto;
+    width: 200px;
+}
+
+.get-it{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-right{
+    align-items: center;
+    margin: auto;
+}
+
+.social-media img{
+    height: 30px;
+    width: 30px;
+}
+
+.footer-contact img{
+    height: 20px;
+    width: 20px;
+    margin-right: 2.5%;
+}
+
+.footer-parent p {
+    color: #ffffff;
+}
+
+.location p, .email p, .phone p{   
+    padding: 0;
+    margin: 0;
+}
